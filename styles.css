@@ -213,4 +213,9 @@ button:hover {
     font-size: 180px;
     grid-row: 1fr;
   }
+  .menu-column {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
