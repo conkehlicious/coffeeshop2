@@ -94,9 +94,13 @@ p {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .popular-menu h2 {
-  font-size: 40px;
+  font-size: 60px;
+  font-weight: 900;
+  text-shadow: 1px 1px 5px red;
+  list-style: ⟶;
 }
 .btn {
   width: 1000px;
@@ -131,12 +135,14 @@ button:hover {
 }
 
 /* gallery */
-.gallery-tittle {
+.gallery-tittle h2 {
   width: 80%;
   margin: auto;
   margin-top: 80px;
   margin-bottom: 50px;
-  font-size: 30px;
+  font-size: 60px;
+  font-weight: 900;
+  text-shadow: 1px 1px 5px red;
 }
 .container-gallery {
   width: 80%;
@@ -197,8 +203,14 @@ button:hover {
 }
 /* media responsive for mobile */
 @media (max-width: 430px) {
+  body {
+  }
   .container-hero {
-    width: 100%;
-    overflow: auto;
+    border: 2px red solid;
+    grid-row: 1fr;
+  }
+  .center-text {
+    font-size: 180px;
+    grid-row: 1fr;
   }
 }
