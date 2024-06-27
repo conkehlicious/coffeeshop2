@@ -219,11 +219,18 @@ button:hover {
     justify-content: center;
   }
   .container-hero-sub img {
-    width: 80%;
+    width: 220px;
+  }
+  .container-menu {
+    margin-top: 170px;
+  }
+  .menu-title {
+    font-size: 40px;
   }
   .menu-column {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
+    line-height: 1.5;
   }
 }
