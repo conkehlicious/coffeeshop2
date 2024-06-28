@@ -116,18 +116,14 @@ label i {
   font-weight: 900;
   text-shadow: 1px 1px 5px rgb(203, 37, 37);
 }
-.btn {
-  width: 1000px;
-  margin: auto;
-  text-align: right;
-}
+
 button {
   font-size: 20px;
-  width: 300px;
+  width: 200px;
   height: 50px;
   border-radius: 15px;
-  background-color: white;
-  border: 2px solid;
+  background-color: red;
+  border: 4px solid;
   cursor: pointer;
 }
 button:hover {
@@ -138,7 +134,10 @@ button:hover {
   margin: auto;
   margin-top: 20px;
 }
-
+.slider {
+  border: 8px solid;
+  border-radius: var(--border-radius);
+}
 .img-item {
   width: 300px;
 }
