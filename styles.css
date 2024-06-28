@@ -260,6 +260,7 @@ footer p {
   }
   label {
     display: inline-flex;
+    padding-right: 15px;
   }
   #toggler:checked ~ .menu {
     max-height: 100%;
