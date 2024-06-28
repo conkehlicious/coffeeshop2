@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <!-- link icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
     <!-- link roboto font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -39,10 +44,10 @@
       <div class="center-text">EXPRESSO <br />YOUR SELF</div>
       <div class="container-hero-sub">
         <div class="img1">
-          <img src="images/icecoffee2.png" alt="" />
+          <img src="images/icecoffee2.png" alt="icecoffee" />
         </div>
         <div class="img2">
-          <img src="images/croissant.png" alt="" />
+          <img src="images/croissant.png" alt="croissant" />
         </div>
       </div>
     </div>
@@ -167,5 +172,97 @@
         </div>
       </div>
     </div>
+    <!-- footer -->
+
+    <div class="container-footer" id="contactus">
+      <!-- location-map start -->
+      <div class="footer-column">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99360.08999982207!2d-77.10338849978429!3d38.90105100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b78dbb8a11a7%3A0xfcb14c812a384c1a!2sLa%20Colombe%20Coffee%20Roasters!5e0!3m2!1sen!2sus!4v1718032176190!5m2!1sen!2sus"
+            width="400"
+            height="400"
+            style="border-radius: 15px"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <!-- location-map end -->
+        <div class="container-location">
+          <h2>Address :</h2>
+          <p>900 6th ST NW</p>
+          <p>WASHINGTON, DC</p>
+          <p>20001</p>
+          <br />
+          <h2>Phone :</h2>
+
+          <p>917 - 8888 - 123</p>
+          <div class="sosmed">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+        </div>
+        <!-- container contact -->
+        <div class="container-contact">
+          <div class="contact-text"><h2>CONTACT US</h2></div>
+          <form action="" method="get">
+            <div class="input-box">
+              <div>
+                <label for="name">Name </label>
+                <input type="text" id="name" placeholder="Your Name" required />
+              </div>
+
+              <div>
+                <label for="email">Email </label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="message">Message </label>
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="5"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+
+              <input type="submit" value="SUBMIT" />
+            </div>
+            <div class="radio">
+              <label for="subcribe">Subcribe Our Newsletter</label><br />
+              <input
+                id="yes"
+                name="subcribe"
+                type="radio"
+                value="yes"
+                checked
+              />
+              YES <input id="no" name="subcribe" type="radio" value="no" /> NO
+            </div>
+            <div class="location">
+              <label for="location">Location </label>
+              <select name="Location" id="location">
+                <option value="virginia">VIRGINIA</option>
+                <option value="orlando">ORLANDO</option>
+                <option value="lasvegas">LAS VEGAS</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>&copy;JUNE 2024 REVOU-BERLIN CLASS BY CONKEHLICIOUS</p>
+    </footer>
   </body>
 </html>

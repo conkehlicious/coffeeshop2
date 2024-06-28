@@ -48,7 +48,9 @@ nav :hover {
 }
 /* container hero */
 .container-hero {
-  width: 100%;
+  border: 8px red solid;
+  width: 80%;
+  margin: auto;
   margin-top: 100px;
   text-align: center;
 }
@@ -57,8 +59,8 @@ nav :hover {
   display: flex;
   justify-content: space-between;
   position: absolute;
-  top: 56%;
-  left: 25%;
+  top: 65%;
+  left: 23%;
 }
 .center-text {
   font-family: roboto, arial;
@@ -214,6 +216,44 @@ button:hover {
 .h-5 {
   grid-row: span 5;
 }
+
+/* container contact us start*/
+.container-footer {
+  border: 4px solid;
+  border-radius: 15px;
+  width: 1224px;
+
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+}
+.footer-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.container-location {
+  padding: 80px;
+}
+.container-contact {
+  font-size: 20px;
+}
+.sosmed {
+  font-size: 30px;
+  margin-top: 15px;
+}
+.input-box input,
+textarea {
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+footer p {
+  padding: 40px;
+  font-size: xx-small;
+  text-align: center;
+}
+/* container contact us end */
 /* media responsive for mobile */
 @media (max-width: 430px) {
   body {
@@ -223,12 +263,13 @@ button:hover {
     width: 100%;
   }
   .center-text {
-    font-size: 80px;
+    font-size: 75px;
+    line-height: 1;
   }
   .container-hero-sub {
     width: 100%;
     left: 0;
-    top: 30%;
+    top: 28%;
     display: flex;
     justify-content: center;
   }
@@ -250,5 +291,15 @@ button:hover {
   .popular-menu h2 {
     line-height: 1;
     font-size: 30px;
+  }
+  .container-footer {
+    width: 350px;
+  }
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .map iframe {
+    width: 300px;
   }
 }
