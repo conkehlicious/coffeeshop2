@@ -77,8 +77,21 @@ nav :hover {
 .menu-title {
   font-size: 50px;
 }
-p {
-  font-size: 15px;
+.pastry ul {
+  list-style-image: url(images/cupcake1.png);
+  padding-left: 20px;
+}
+.sandwich ul {
+  list-style-image: url(images/icon_sandwich.png);
+  padding-left: 20px;
+}
+.special-menu ul {
+  list-style-image: url(images/iconbowl1.png);
+  padding-left: 20px;
+}
+.coffee ul {
+  list-style-image: url(images/icecoffeeicon.png);
+  padding-left: 20px;
 }
 .menu-column {
   margin-top: 15px;
@@ -99,7 +112,7 @@ p {
 .popular-menu h2 {
   font-size: 60px;
   font-weight: 900;
-  text-shadow: 1px 1px 5px red;
+  text-shadow: 1px 1px 5px rgb(203, 37, 37);
 }
 .btn {
   width: 1000px;
@@ -141,8 +154,9 @@ button:hover {
   margin-bottom: 50px;
   font-size: 60px;
   font-weight: 900;
-  text-shadow: 1px 1px 5px red;
+  text-shadow: 1px 1px 5px rgb(203, 37, 37);
 }
+
 .container-gallery {
   width: 80%;
   margin: auto;
@@ -232,5 +246,9 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr;
     line-height: 1.5;
+  }
+  .popular-menu h2 {
+    line-height: 1;
+    font-size: 30px;
   }
 }
